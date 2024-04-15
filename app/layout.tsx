@@ -24,9 +24,7 @@ export default function RootLayout({
       }}
     >
       <html lang="en">
-        <Head>
-          <ClientScript />
-        </Head>
+        <ClientScript />
         <body>{children}</body>
       </html>
     </ClerkProvider>
