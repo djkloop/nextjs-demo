@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Home = () => {
   return (
-    <section>
+    <section className="flex flex-col gap-y-4">
       <Button>Default</Button>
       <Button variant={"primary"}>Primary</Button>
       <Button variant={"primaryOutline"}>Primary Outline</Button>
